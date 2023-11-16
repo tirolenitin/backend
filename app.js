@@ -31,7 +31,7 @@ const server = app.listen(PORT,()=>{
 })
 const io = require('socket.io')(server,{
     cors:{
-        origin:BASE_URL
+        origin:'http://localhost:3000'
     }
 })
 
